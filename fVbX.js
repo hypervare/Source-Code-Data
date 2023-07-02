@@ -4,7 +4,7 @@ fS.addEventListener("click", function(){
     if(f.value=="HVctf{Y0u_g0T-th3_D4tA}"){
         alert("Hacked!\n Access Granted to next level.")
         let chg = document.getElementById("chgBtn")
-        chg.setAttribute("href", "#2")
+        chg.setAttribute("href", "https://hypervare.github.io/JavaScript-Leak/")
         chg.innerHTML = "Access Granted!"
     }else{
         alert("Wrong Flag")
